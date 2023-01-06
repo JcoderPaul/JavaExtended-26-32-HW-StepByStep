@@ -1,0 +1,53 @@
+******* Class InputStream *******
+
+java.io.InputStream
+
+public abstract class InputStream extends Object
+                                  implements Closeable
+Все реализованные интерфейсы:
+Closeable, AutoCloseable
+
+Прямые известные подклассы:
+AudioInputStream, ByteArrayInputStream, FileInputStream,
+FilterInputStream, InputStream, ObjectInputStream,
+PipedInputStream, SequenceInputStream, StringBufferInputStream.
+
+Этот абстрактный класс является надклассом всех классов,
+представляющих входной поток байтов. Приложения, которым
+необходимо определить подкласс InputStream, всегда должны
+предоставлять метод, возвращающий следующий байт ввода.
+
+Смотреть так же:
+BufferedInputStream, ByteArrayInputStream, DataInputStream,
+FilterInputStream, read(), OutputStream, PushbackInputStream
+
+******* МЕТОДЫ *******
+int available() - Возвращает оценку количества байтов, которые могут быть прочитаны
+                  (или пропущены) из этого входного потока без блокировки при следующем
+                  вызове метода для этого входного потока.
+
+void close() - Закрывает текущий (заданный) входной поток и освобождает все системные
+               ресурсы, связанные с потоком.
+
+void mark(int readlimit) - Отмечает текущую позицию в заданном входном потоке.
+
+boolean markSupported() - Проверяет, поддерживает ли текущий (выбранный) входной поток
+                          методы отметки и сброса.
+
+abstract int read() - Считывает следующий байт данных из входного потока.
+
+int read(byte[] b) - Считывает некоторое количество байтов из входного потока
+                     и сохраняет их в буферный байтовый массив b.
+
+int read(byte[] b, int off, int len) - Считывает до len байтов данных из входного
+                                       потока в массив байтов.
+
+void reset() - Перемещает текущий поток в позицию во время последнего
+               вызова метода метки для этого входного потока.
+
+long skip(long n) - Пропускает и отбрасывает n байтов данных из текущего
+                    входного потока.
+
+------------------------------------------------------------------------------------------------
+Более подробно см. https://docs.oracle.com/javase/7/docs/api/java/io/InputStream.html
+------------------------------------------------------------------------------------------------
