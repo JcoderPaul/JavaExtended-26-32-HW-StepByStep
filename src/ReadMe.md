@@ -53,7 +53,7 @@ IO API – (Input & Output) в первую очередь это Java API, ко
 Документация по разделу (RUS):
 - [ClassReader.txt](https://github.com/JcoderPaul/JavaExtended-26-32-HW-StepByStep/blob/master/src/Less_26_32_HW_2_StepByStep/RUS_DOC/ClassReader.txt)
 ***
-### [Less_26_32_HW_3_StepByStep](https://github.com/JcoderPaul/JavaExtended-26-32-HW-StepByStep/tree/master/src/Less_26_32_HW_3_StepByStep) - варианты записи данных из файла:
+### [Less_26_32_HW_3_StepByStep](https://github.com/JcoderPaul/JavaExtended-26-32-HW-StepByStep/tree/master/src/Less_26_32_HW_3_StepByStep) - варианты записи данных в файл:
 ***
 - [IO_API_HW_3_Step1](https://github.com/JcoderPaul/JavaExtended-26-32-HW-StepByStep/tree/master/src/Less_26_32_HW_3_StepByStep/IO_API_HW_3_Step1) - простой пример записи данных в файл, применение классов [OutputStream](https://github.com/JcoderPaul/JavaExtended-26-32-HW-StepByStep/blob/master/src/Less_26_32_HW_3_StepByStep/RUS_DOC/ClassOutputStream.txt), [FileOutputStream](https://github.com/JcoderPaul/JavaExtended-26-32-HW-StepByStep/blob/master/src/Less_26_32_HW_3_StepByStep/RUS_DOC/ClassFileOutputStream.txt) и их методов;
 ***
